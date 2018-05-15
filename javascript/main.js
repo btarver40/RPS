@@ -60,7 +60,7 @@ scissors.addEventListener('click',function(){
   else {
     choices.innerHTML = "Computer chose paper"
     results.innerHTML = "You are a winner!"
-    score.innerHTML = results ++
+    // score.innerHTML = results ++
   }
 })
 
