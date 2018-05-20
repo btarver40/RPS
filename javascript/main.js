@@ -4,6 +4,9 @@ var choices = document.getElementById("choices")
 var rock = document.getElementById("rock")
 var paper = document.getElementById("paper")
 var scissors = document.getElementById("scissors")
+var win = 0
+var lose = 0
+
 
 
 
@@ -16,6 +19,7 @@ rock.addEventListener('click',function(){
   if (random === "Paper"){
     choices.innerHTML = "Computer chose paper"
     results.innerHTML = "You Lose"
+    score.innerHTML = win ++ ,"Computer's Score" 
   } 
   else if (random === "Rock"){
     choices.innerHTML = "Computer chose rock"
@@ -24,6 +28,7 @@ rock.addEventListener('click',function(){
   else {
     choices.innerHTML = "Computer chose scissors"
     results.innerHTML = "You Win"
+    my_score.innerHTML = win ++ ,"Your Score" 
   }
 })
 
@@ -34,6 +39,7 @@ paper.addEventListener('click',function(){
   if (random === "Scissors"){
   choices.innerHTML = "Computer chose scissors"
   results.innerHTML = "You Lose Suckaa!"
+  score.innerHTML = win ++ ,"Computer's Score"
   }
   else if (random === "Paper"){
     choice.innerHTML = "Computer chose paper"
@@ -42,6 +48,7 @@ paper.addEventListener('click',function(){
   else {
     choices.innerHTML = "Computer chose rock"
     results.innerHTML = "Winnerrrr!"
+    my_score.innerHTML = win ++ ,"Your Score" 
   }
 })
 
@@ -52,6 +59,7 @@ scissors.addEventListener('click',function(){
   if (random === "Rock"){
     choices.innerHTML = "Computer chose rock"
     results.innerHTML = "You Loser!"
+    score.innerHTML = win ++ ,"Computer's Score"
   } 
   else if (random === "Scissors"){
     choices.innerHTML = "Computer chose scissors"
@@ -60,6 +68,7 @@ scissors.addEventListener('click',function(){
   else {
     choices.innerHTML = "Computer chose paper"
     results.innerHTML = "You are a winner!"
+    my_score.innerHTML = win ++ ,"Your Score" 
     // score.innerHTML = results ++
   }
 })
@@ -69,4 +78,4 @@ scissors.addEventListener('click',function(){
 // v paper = document.getElementById("paper")
 
 
-//everything is 
+
