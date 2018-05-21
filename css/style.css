@@ -1,17 +1,22 @@
 .rps {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/Users/biancatarver/Devpoint2018/Save/rps/photos/background-image.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: scroll;
-  background: linear-gradient(rgb(108, 107, 107), black)
+  margin: 80px;
 }
 
 #results {
   color: white;
-  text-align: left; 
+  text-align: center; 
   color: violet;
 }
 
 #choices {
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
 .title {
@@ -40,8 +45,33 @@ h2 {
 .photos {
   padding-bottom: 50px;
   padding: 40px;
+  float: right;
 }
 
-#score {
-  padding-bottom: 40px;
+#game_results {
+  border: 3px dotted black;
+  margin: 40px;
+  width: 35%;
+  height: 90%;
+  background-color: black;
+  float: right;
+  border-radius: 10%;
+}
+#more_info {
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 40px;
+}
+.more {
+  border: 5px hidden;
+  border-radius: 20px;
+  width: 40%;
+  color: rgb(252, 252, 252);
+}
+
+.btn {
+padding: 30px;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(210, 170, 203)
 }

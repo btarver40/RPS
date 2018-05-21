@@ -73,6 +73,10 @@ scissors.addEventListener('click',function(){
   }
 })
 
+// btn.addEventListener('click', function(){
+// console.log("button worked")
+// })
+
 
 
 // v paper = document.getElementById("paper")
